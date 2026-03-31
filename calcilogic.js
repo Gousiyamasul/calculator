@@ -22,7 +22,7 @@ let screen = document.getElementById("screen");
 
         function calculate() {
             try {
-                screen.value = eval(screen.value);
+                screen.value = math.evaluate(screen.value);
             } catch {
                 screen.value = "Error";
             }
